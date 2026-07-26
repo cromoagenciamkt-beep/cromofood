@@ -16,7 +16,7 @@ Abra `index.html` diretamente no navegador ou sirva a pasta com qualquer servido
 
 ## Personalização antes da publicação
 
-- Substitua `assets/enzo-placeholder.jpg` pelo retrato oficial de Enzo Gomes.
+- Substitua `assets/enzo-placeholder.jpg` pelo retrato oficial de Henzo Gomes.
 - Atualize os links de Instagram e WhatsApp em `index.html`.
 - Troque os números ilustrativos do case pelos resultados auditados da Adega do Bigode.
 - Substitua `assets/hero-film.mp4` pelo filme gastronômico final, mantendo o mesmo nome para evitar alterações no HTML.
