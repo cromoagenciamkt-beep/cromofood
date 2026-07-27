@@ -43,16 +43,23 @@
     <div class="cursor-glow" aria-hidden="true"></div>
 
     <!-- Navegação principal -->
-    <header class="site-header" data-header>
- <a class="brand" href="#inicio" aria-label="Cromo Marketing - início" style="position: absolute !important; top: 20px !important; left: 20px !important; z-index: 9999 !important; display: block !important;">
-  <img src="assets/logo-cromo.png" class="logo-esquerda" style="width: 150px !important; height: auto !important; max-width: 150px !important; display: block !important;">
-</a>
-<nav class="desktop-nav" aria-label="Navegação principal" style="margin-left: 180px !important; display: flex !important; flex-direction: row !important; gap: 25px !important; align-items: center !important; justify-content: flex-start !important; height: auto !important; float: none !important;">
-  <a href="#sobre" style="display: inline-block !important; white-space: nowrap !important; margin: 0 !important; padding: 5px 10px !important;">Manifesto</a>
-  <a href="#servicos" style="display: inline-block !important; white-space: nowrap !important; margin: 0 !important; padding: 5px 10px !important;">Expertise</a>
-  <a href="#case" style="display: inline-block !important; white-space: nowrap !important; margin: 0 !important; padding: 5px 10px !important;">Case</a>
-  <a href="#contato" style="display: inline-block !important; white-space: nowrap !important; margin: 0 !important; padding: 5px 10px !important;">Contato</a>
-</nav>
+    <header class="site-header" data-header style="display: flex !important; align-items: center !important; justify-content: flex-start !important; padding: 20px 40px !important; width: 100% !important; box-sizing: border-box !important;">
+  
+  <!-- LOGO NO CANTO ESQUERDO -->
+  <a class="brand" href="#inicio" aria-label="Cromo Marketing - início" style="display: flex !important; align-items: center !important; margin-right: 40px !important;">
+    <img src="assets/logo-cromo.png" class="logo-esquerda" style="width: 150px !important; height: auto !important; max-width: 150px !important; display: block !important;">
+  </a>
+
+  <!-- MENU LOGO EM SEGUIDA, ALINHADO POR BAIXO -->
+  <nav class="desktop-nav" aria-label="Navegação principal" style="display: flex !important; flex-direction: row !important; gap: 20px !important; align-items: center !important; margin: 0 !important; padding: 0 !important;">
+    <a href="#sobre" style="display: inline-block !important; white-space: nowrap !important; text-decoration: none !important;">Manifesto</a>
+    <a href="#servicos" style="display: inline-block !important; white-space: nowrap !important; text-decoration: none !important;">Expertise</a>
+    <a href="#case" style="display: inline-block !important; white-space: nowrap !important; text-decoration: none !important;">Case</a>
+    <a href="#contato" style="display: inline-block !important; white-space: nowrap !important; text-decoration: none !important;">Contato</a>
+  </nav>
+
+</header>
+
       <a class="header-cta magnetic" href="#contato"><span>Começar projeto</span></a>
       <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
         <span></span><span></span>
